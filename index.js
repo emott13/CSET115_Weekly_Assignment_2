@@ -1,6 +1,10 @@
 let x = document.getElementById('results')
 let y = x.innerText
 
+function btn0(){
+    x.innerText = x.innerText + '0'
+}
+
 function btn1(){
     x.innerText = x.innerText + '1'
 }
@@ -66,7 +70,7 @@ function btnPerc(){
 }
 
 function btnSqr(num){
-    x.innerText = x.innerText + `${num}^2`
+    x.innerText = x.innerText + `${num}²`
 }
 
 function btnSqrRt(){

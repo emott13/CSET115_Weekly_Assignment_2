@@ -1,12 +1,12 @@
 button{
     margin-bottom: 2px;
     font-size: medium;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     text-align: center;
     border: none;
     }
-    
+
 #equal{
 background-color:rgb(106, 133, 203);
 }
@@ -14,44 +14,57 @@ background-color:rgb(106, 133, 203);
 .calc{
     align-content: center;
     margin-left: 40%;
-    width: 300px;
+    width: 400px;
     height: 1200px;
 }
 
 #one{
     background-color: rgba(251, 251, 251, 0.716);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #two{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 #three{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #four{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #five{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #six{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #seven{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #eight{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #nine{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #zero{
     background-color: rgba(251, 251, 251, 0.716);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #signChange{
     background-color: rgba(251, 251, 251, 0.716);
+   
 }
 #decimal{
     background-color: rgba(251, 251, 251, 0.716);
+   
 }
