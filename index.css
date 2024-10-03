@@ -1,0 +1,57 @@
+button{
+    margin-bottom: 2px;
+    font-size: medium;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    }
+    
+#equal{
+background-color:rgb(106, 133, 203);
+}
+
+.calc{
+    align-content: center;
+    margin-left: 40%;
+    width: 300px;
+    height: 1200px;
+}
+
+#one{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+
+#two{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#three{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#four{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#five{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#six{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#seven{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#eight{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#nine{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#zero{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#signChange{
+    background-color: rgba(251, 251, 251, 0.716);
+}
+#decimal{
+    background-color: rgba(251, 251, 251, 0.716);
+}
