@@ -1,3 +1,7 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 button{
     margin-bottom: 2px;
     font-size: medium;
@@ -11,8 +15,11 @@ button{
 background-color:rgb(106, 133, 203);
 }
 
+#results{
+   margin-left: 60%;
+}
 .calc{
-    align-content: center;
+    margin-top: 70px;
     margin-left: 40%;
     width: 400px;
     height: 1200px;
@@ -20,7 +27,7 @@ background-color:rgb(106, 133, 203);
 
 #one{
     background-color: rgba(251, 251, 251, 0.716);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #two{
