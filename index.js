@@ -1,72 +1,21 @@
 let x = document.getElementById('results')
 let y = x.innerText
+let input = ''
 
-function btn1(){
-    x.innerText = x.innerText + '1'
+function btn(number){
+    x.innerText = x.innerText + number
 }
 
-function btn2(){
-    x.innerText = x.innerText + '2'
+function btnOperators(operator){
+    x.innerText = x.innerText + number
+   input += ' ' + operator + ' ';
 }
 
-function btn3(){
-    x.innerText = x.innerText + '3'
-}
 
-function btn4(){
-    x.innerText = x.innerText + '4'
-}
 
-function btn5(){
-    x.innerText = x.innerText + '5'
-}
-
-function btn6(){
-    x.innerText = x.innerText + '6'
-}
-
-function btn7(){
-    x.innerText = x.innerText + '7'
-}
-
-function btn8(){
-    x.innerText = x.innerText + '8'
-}
-
-function btn9(){
-    x.innerText = x.innerText + '9'
-}
-
-function btnDec(){
-    x.innerText = x.innerText + '.'
-}
-
-function btnAdd(){
-    x.innerText = x.innerText + '+'
-}
-
-function btnSub(){
-    x.innerText = x.innerText + '-'
-}
-
-function btnMult(){
-    x.innerText = x.innerText + '*'
-}
-
-function btnDivi(){
-    x.innerText = x.innerText + '/'
-}
-
-function btnEql(){
-    x.innerText = x.innerText + '='
-}
-
-function btnPerc(){
-    x.innerText = x.innerText + '%'
-}
 
 function btnSqr(num){
-    x.innerText = x.innerText + `${num}^2`
+    x.innerText = x.innerText + `${num}²`
 }
 
 function btnSqrRt(){
