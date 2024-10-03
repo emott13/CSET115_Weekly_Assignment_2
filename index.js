@@ -3,30 +3,35 @@ let y = x.innerText
 let input = ''
 
 function btn(number){
-    x.innerText = x.innerText + number
+    if(x.innerText == '0'){
+        x.innerText = number
+    }
+    else{
+        x.innerText = x.innerText + number
+    }
 }
 
 function btnOperators(operator){
-    x.innerText = x.innerText + number
-   input += ' ' + operator + ' ';
+    x.innerText = x.innerText + ' ' + operator + ' ';
 }
 
-
-
-
-function btnSqr(num){
-    x.innerText = x.innerText + `${num}²`
+function btnSqr(){
+    x.innerText = `${x.innerText}²`
 }
 
 function btnSqrRt(){
-    x.innerText = x.innerText + `√${num}`
+    x.innerText =  `√${x.innerText}`
 }
 
-function btnSgn(){
-
+function btnEqual(){
+    eq = x.innerText
+    v = `${eq}`
+    x.innerText = v
+    // return v
 }
 
-function btnBack(){
+
+function btnBck(){
     //string length remove last index?
     z = y.length
     for(i=0; i<z; i++){
@@ -36,7 +41,7 @@ function btnBack(){
 }
 
 function btnClr(){
-    x.innerText = x.innerText + '0'
+    x.innerText = '0'
 }
 
 function btnClrRslt(){
