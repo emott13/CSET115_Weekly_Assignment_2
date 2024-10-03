@@ -1,5 +1,16 @@
-h1{
+h1{ direction: rtl;
+    margin-right: 50%;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.none{
+    background-color: rgba(251, 251, 251, 0.716);
+    color: transparent;
+}
+
+.none{
+     color: transparent;
 }
 
 button{
