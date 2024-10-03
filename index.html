@@ -8,11 +8,12 @@
 </head>
 <body>
 
-    <div id="results">
-      <h1>0</h1>
+    <div>
+      <h1 id="results" >0</h1>
     </div>
 
     <div class="calc">
+      
         <button onclick="btnOperators('%')" id="percentage">%</button>
         <button onclick="btnClrRslt()" id="clearResult">CE</button>
         <button onclick="btnClr()" id="clear">C</button>
@@ -33,11 +34,10 @@
         <button onclick="btn('2')" id="two">2</button>
         <button onclick="btn('3')" id="three">3</button>
         <button onclick="btnOperators('+')" id="add">+</button>
-        <button id="signChange">+/-</button>
+        <button class="none">none</button>
         <button onclick="btn('0')" id="zero">0</button>
         <button onclick="btnOperators('.')" id="decimal">.</button>
         <button onclick="btn()" id="equal">=</button>
-       
         
        <script src="index.js"></script>
     </div>
