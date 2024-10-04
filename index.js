@@ -3,7 +3,7 @@ let y = document.getElementById('calculation');
 let maxLength = 18;
 
 function btn(number){
-    if(x.length < maxLength){
+    if(x.innerText.length < maxLength){
         if(x.innerText == '0'){
             x.innerText = number
         }
@@ -14,19 +14,19 @@ function btn(number){
 }
 
 function btnOperators(operator){
-    if(x.length < maxLength){
+    if(x.innerText.length < maxLength){
         x.innerText += operator;
     }
 }
 
 function btnSqr(){
-    if(x.length + 3 <= maxLength){
+    if(x.innerText.length + 3 <= maxLength){
         x.innerText += '**2';
     }
 }
 
 function btnSqrRt(){
-    if(x.length + 11 <= maxLength){
+    if(x.innerText.length + 11 <= maxLength){
         x.innerText =  `Math.sqrt(${x.innerText})`; 
     }
 }
@@ -47,7 +47,7 @@ function btnClr(){
 }
 
 function btnPrcnt(){
-    if(x.length + 4 <= maxLength){
+    if(x.innerHTML.length + 4 <= maxLength){
         x.innerText += '*0.01'
     }
 }
