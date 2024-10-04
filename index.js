@@ -20,17 +20,20 @@ function btnOperators(operator){
 }
 
 function btnSqr(){
-    x.innerText += '**2';
+    if(x.length + 3 <= maxLength){
+        x.innerText += '**2';
 }
 
 function btnSqrRt(){
-    x.innerText =  `Math.sqrt(${x.innerText})`;
+    if(x.length + 11 <= maxLength){
+        x.innerText =  `Math.sqrt(${x.innerText})`; 
+    }
 }
 
 function btnEql(){;
     var expression = x.innerText;
     y.innerText = expression;
-    x.innerText = eval(expression)
+    x.innerText = eval(expression);
 }
 
 function btnBck(){
@@ -46,7 +49,6 @@ function btnPrcnt(){
     if(x.length + 4 <= maxLength){
         x.innerText += '*0.01'
     }
-    
 }
 
 function btnClrRslt(){
@@ -55,5 +57,5 @@ function btnClrRslt(){
 }
 
 function btnClrEnt(){
-    x.innerText = '0'
+    x.innerText = '0';
 }
