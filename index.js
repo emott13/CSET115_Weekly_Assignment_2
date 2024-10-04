@@ -24,7 +24,7 @@ function btnSqr(){
         x.innerText += '**2';
     }
 }
-}
+
 
 function btnSqrRt(){
     if(x.innerText.length + 11 <= maxLength){
