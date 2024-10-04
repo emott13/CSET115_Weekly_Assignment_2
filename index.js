@@ -3,7 +3,7 @@ let y = document.getElementById('calculation');
 let maxLength = 18;
 
 function btn(number){
-    if(x.length < maxLength){
+    if(x.innerText.length < maxLength){
         if(x.innerText == '0'){
             x.innerText = number
         }
@@ -14,7 +14,7 @@ function btn(number){
 }
 
 function btnOperators(operator){
-    if(x.length < maxLength){
+    if(x.innerText.length < maxLength){
         x.innerText += operator;
     }
 }
