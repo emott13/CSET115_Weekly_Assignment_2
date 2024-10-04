@@ -22,6 +22,7 @@ function btnOperators(operator){
 function btnSqr(){
     if(x.length + 3 <= maxLength){
         x.innerText += '**2';
+    }
 }
 
 function btnSqrRt(){
