@@ -1,49 +1,51 @@
-let x = document.getElementById('results')
-let y = x.innerText
-let input = ''
+let x = document.getElementById('results');
+let y = document.getElementById('calculation');
 
 function btn(number){
     if(x.innerText == '0'){
         x.innerText = number
     }
     else{
-        x.innerText = x.innerText + number
+        x.innerText += number
     }
 }
 
 function btnOperators(operator){
-    x.innerText = x.innerText + ' ' + operator + ' ';
+    x.innerText += operator;
 }
 
 function btnSqr(){
-    x.innerText = `${x.innerText}²`
+    x.innerText += '**2';
 }
 
 function btnSqrRt(){
-    x.innerText =  `√${x.innerText}`
+    x.innerText =  `Math.sqrt(${x.innerText})`;
 }
 
-function btnEqual(){
-    eq = x.innerText
-    v = `${eq}`
-    x.innerText = v
-    // return v
+function btnEql(){;
+    var expression = x.innerText;
+    y.innerText = expression;
+    x.innerText = eval(expression)
 }
-
 
 function btnBck(){
-    //string length remove last index?
-    z = y.length
-    for(i=0; i<z; i++){
-        y = ''
-        y = y[i]
-    }
+    x.innerText = x.innerText.slice(0, -1) || '0';
 }
 
 function btnClr(){
-    x.innerText = '0'
+    x.innerText = '0';
+    y.innerText = '';
+}
+
+function btnPrcnt(){
+    x.innerText += '*0.01'
 }
 
 function btnClrRslt(){
-    //search for index of =, remove everything after?
+    x.innerText = y.innerText;
+    y.innerText = '';
+}
+
+function btnClrEnt(){
+    x.innerText = '0'
 }

@@ -8,38 +8,65 @@
 </head>
 <body>
 
-    <div>
-      <h1 id="results" >0</h1>
+    <div class="calc">
+
+        <div class="top">
+            <div class="row_0">
+                <p id="calculation"></p>
+            </div>
+            <div class="row_0">
+                <p id="results">0</p>
+            </div>
+        </div>
+      
+        <div class="row 1">
+            <button onclick="btnClrRslt()" id="clearResult">CR</button>     <!--clears result-->
+            <button onclick="btnClrEnt()" id="clearEntry">CE</button>       <!--clears entry-->
+            <button onclick="btnClr()" id="clear">C</button>                <!--clears all-->
+            <button onclick="btnBck()" id="delete">⌫</button>              <!--clears last entered character-->
+        </div>
+
+        <div class="row 2">
+            <button onclick="btnPrcnt()" id="percent">%</button>
+            <button onclick="btnSqr()" id="squared">
+                <i>x</i>²                   <!------------------------------makes the x italic-->
+            </button>
+            <button onclick="btnSqrRt()" id="squareRoot">
+                √<i>x</i>                   <!------------------------------makes the x italic-->
+            </button>
+            <button onclick="btnOperators('/')" id="divide">÷</button>
+        </div>
+
+        <div class="row 3">
+            <button onclick="btn('7')" id="seven">7</button>
+            <button onclick="btn('8')" id="eight">8</button>
+            <button onclick="btn('9')" id="nine">9</button>
+            <button onclick="btnOperators('*')" id="multiply">x</button>   
+        </div>
+        
+        <div class="row 4">
+            <button onclick="btn('4')" id="four">4</button>
+            <button onclick="btn('5')" id="five">5</button>
+            <button onclick="btn('6')" id="six">6</button>
+            <button onclick="btnOperators('-')" id="subtract">-</button>
+        </div>
+
+        <div class="row 5">
+            <button onclick="btn('1')" id="one">1</button>
+            <button onclick="btn('2')" id="two">2</button>
+            <button onclick="btn('3')" id="three">3</button>
+            <button onclick="btnOperators('+')" id="add">+</button>
+        </div>        
+
+        <div class="row 6">
+            <button id="none"></button>
+            <button onclick="btn('0')" id="zero">0</button>
+            <button onclick="btnOperators('.')" id="decimal">.</button>
+            <button onclick="btnEql()" id="equal">=</button>
+        </div>
+        
     </div>
 
-    <div class="calc">
-      
-        <button onclick="btnOperators('%')" id="percentage">%</button>
-        <button onclick="btnClrRslt()" id="clearResult">CE</button>
-        <button onclick="btnClr()" id="clear">C</button>
-        <button onclick="btnBck()" id="delete">⌫</button>
-        <button onclick="btnSqr()" id="squared">X²</button>
-        <button>none</button>
-        <button onclick="btnSqrRt()" id="squareRoot">√</button>
-        <button onclick="btnOperators('/')" id="divide">÷</button>
-        <button onclick="btn('7')" id="seven">7</button>
-        <button onclick="btn('8')" id="eight">8</button>
-        <button onclick="btn('9')" id="nine">9</button>
-        <button onclick="btnOperators('*')" id="multiply">x</button>
-        <button onclick="btn('4')" id="four">4</button>
-        <button onclick="btn('5')" id="five">5</button>
-        <button onclick="btn('6')" id="six">6</button>
-        <button onclick="btnOperators('-')" id="subtract">-</button>
-        <button onclick="btn('1')" id="one">1</button>
-        <button onclick="btn('2')" id="two">2</button>
-        <button onclick="btn('3')" id="three">3</button>
-        <button onclick="btnOperators('+')" id="add">+</button>
-        <button class="none">none</button>
-        <button onclick="btn('0')" id="zero">0</button>
-        <button onclick="btnOperators('.')" id="decimal">.</button>
-        <button onclick="btn()" id="equal">=</button>
-        
-       <script src="index.js"></script>
-    </div>
+    <script src="index.js"></script>
 </body>
 </html>
