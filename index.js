@@ -1,17 +1,22 @@
 let x = document.getElementById('results');
 let y = document.getElementById('calculation');
+let maxLength = 18;
 
 function btn(number){
-    if(x.innerText == '0'){
-        x.innerText = number
-    }
-    else{
-        x.innerText += number
+    if(x.length < maxLength){
+        if(x.innerText == '0'){
+            x.innerText = number
+        }
+        else{
+            x.innerText += number
+        }
     }
 }
 
 function btnOperators(operator){
-    x.innerText += operator;
+    if(x.length < maxLength){
+        x.innerText += operator;
+    }
 }
 
 function btnSqr(){
@@ -38,7 +43,10 @@ function btnClr(){
 }
 
 function btnPrcnt(){
-    x.innerText += '*0.01'
+    if(x.length + 4 <= maxLength){
+        x.innerText += '*0.01'
+    }
+    
 }
 
 function btnClrRslt(){
