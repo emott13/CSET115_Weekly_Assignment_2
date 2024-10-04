@@ -25,6 +25,7 @@ function btnSqr(){
     }
 }
 
+
 function btnSqrRt(){
     if(x.innerText.length + 11 <= maxLength){
         x.innerText =  `Math.sqrt(${x.innerText})`; 
