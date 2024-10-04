@@ -1,88 +1,70 @@
-h1{ direction: rtl;
-    margin-right: 50%;
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 40px;
+}
 
+.top{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.row_0{
+    margin-bottom: 10px;
+    width: 320px;
+    text-align: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: inset 1px;
+}
+#calculation{
+    min-height: 25px;
+}
+#results{
+    font-size: 30px;
+    font-weight: 700;
+    min-height: 40px;
 }
 
-.none{
-    background-color: rgba(251, 251, 251, 0.716);
-    color: transparent;
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px auto;
+    padding: 5px;
+    margin-top: 60px;
+    width: 340px;
+    border: outset 2px;
+    background-color: rgb(200, 200, 200);
 }
 
-.none{
-     color: transparent;
+.row{
+    display: flex;
+    justify-content: center;
 }
 
 button{
-    margin-bottom: 2px;
     font-size: medium;
+    margin: 1px;
     width: 80px;
     height: 80px;
     text-align: center;
-    border: none;
-    }
+    border: outset 1px rgb(200, 200, 200);
+}
+
+#one, #two, #three,
+#four, #five, #six,
+#seven, #eight, #nine, #zero{
+    font-weight: bold;
+}
+
+#percent, #clearResult, #clearEntry, 
+#clear, #delete, #add, #subtract, 
+#multiply, #divide, #squared, #squareRoot{
+    background-color: rgb(219, 219, 219);
+}
 
 #equal{
-background-color:rgb(106, 133, 203);
-}
-
-#results{
-   margin-left: 60%;
-}
-.calc{
-    margin-top: 70px;
-    margin-left: 40%;
-    width: 400px;
-    height: 1200px;
-}
-
-#one{
-    background-color: rgba(251, 251, 251, 0.716);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#two{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#three{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#four{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#five{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#six{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#seven{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#eight{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#nine{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#zero{
-    background-color: rgba(251, 251, 251, 0.716);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#signChange{
-    background-color: rgba(251, 251, 251, 0.716);
-   
-}
-#decimal{
-    background-color: rgba(251, 251, 251, 0.716);
-   
+    background-color:rgb(132, 186, 228);
 }
